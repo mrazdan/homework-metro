@@ -2,7 +2,7 @@ Have installed: NodeJS, VisualStudio Code, Docker
 
 1.Clone the code from GIT
 2.Open the folder in VS
-3.Open a terminal in VS and run: npm installed
+3.Open a terminal in VS and run: npm install
 4.Run tests in visual mode: npm test 
 5.Run tests in headless mode with report generation: npm run html-report
 6.Run: docker build -t cypress-test-image:1.0.0 .   to build docker image
