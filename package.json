@@ -1,0 +1,16 @@
+{
+  "name": "metro-digital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "html-report": "npx cypress run --spec cypress/e2e/homeworkUI.cy.js --headless --browser chrome"
+  },
+  "author": "Daniel Mraz",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
